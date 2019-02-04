@@ -2138,7 +2138,7 @@ input.btn.btn-primary{
   left: 0;
   right: 0;
   bottom: 0;
-  animation: bg-animation 10s infinite;
+  animation: bg-animation 60s infinite;
 }
 
 @-webkit-keyframes bg-animation {
