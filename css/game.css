@@ -1,0 +1,26 @@
+#gamepadding {
+    padding-top:300px;
+}
+
+
+#game h2 {
+    display: inline-block;
+    float: left;
+    }
+
+
+#dice button {
+    position: relative;
+    bottom: 0;
+}
+
+#hist {
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    height: 500px;
+    width: 500px;
+    border: solid;
+    border-width: 1px;
+    overflow-y: scroll;
+}
+
