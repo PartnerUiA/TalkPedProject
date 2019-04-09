@@ -1,0 +1,41 @@
+#setup{
+  margin: auto;
+  margin-top:15%;
+  padding-bottom:5%;
+  width: 50%;
+  height:70%;
+  overflow:auto;
+  text-align: center;
+}
+/*
+
+Hides scrollbar
+
+*/
+#setup::-webkit-scrollbar { 
+    display: none; 
+}
+
+#setup select{
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#FFF;
+  text-align:center;
+}
+
+#setup input[type=text] {
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#FFF;
+  text-align:center;
+}
