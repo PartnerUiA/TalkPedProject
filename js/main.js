@@ -105,6 +105,7 @@ var GameState = {
 	preload: function(){
 		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 		//Asset preloading
+		game.load.image('infoBox', 'assets/images/infobox.png');
 		game.load.image('bluBox', 'assets/images/bluBox.png');
 		game.load.spritesheet('blux', 'assets/images/blueBox.png', 378, 183, 10);
 		game.load.spritesheet('redx', 'assets/images/rdBox.png', 378, 183, 10);
